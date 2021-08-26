@@ -177,13 +177,7 @@ a.simple-viewmore{color:var(--black-text-color);font-size:13px;font-weight:600;}
 span.label-news-ui{position:relative;float:left;font-size:13px;color:var(--label-relative);margin:3px 0 0;box-sizing:border-box;}
 .qaww-posts .piki-hero-box .post-snip{padding:0}
 .qwesa .item0 .qaww-img .entry-title a{color:var(--footer-posts-sec)}
-.queryMessage{display:block;font-size:13px;font-weight:400;padding:10px;margin:0 0 25px;color:var(--black-text-color);border:1px solid #c5c3c3;background-color:#f2f2f2;overflow:hidden}
-.queryMessage .query-info{margin:0 5px}
-.queryMessage .search-query,.queryMessage .search-label{font-weight:bold;text-transform:uppercase}
-.queryMessage .search-query:before,.queryMessage .search-label:before{content:"\201c"}
-.queryMessage .search-query:after,.queryMessage .search-label:after{content:"\201d"}
-.queryMessage a.show-more{float:right;color:#fff;border:1px solid #aca6a6;padding:1px 8px;background-color:var(--main-text-color);text-decoration:none;transition:opacity .40s}
-.queryMessage a.show-more:hover{background-color:var(--main-text-hover)}
+
 .queryEmpty{font-size:13px;font-weight:500;text-align:center;padding:10px 0;margin:0 0 20px}
 
 .dark table,.dark td{border-color:rgba(255,255,255,0.1)}
@@ -671,8 +665,7 @@ input.search-input{font-size:20px}
 .post-filter .iopuio-box{margin:0px 10px 30px;float:left;}
 .post-snip .post-date{margin:10px 10px 0 0;}
 }
-@media screen and (max-width:480px){.queryMessage a.show-more{display:block;width:100%;padding:0}
-.queryMessage{text-align:center}
+@media screen and (max-width:480px){
 .item-post h1.entry-title{font-size:24px}
 .about-author .avatar-container{float:none;display:table;margin:10px auto}
 .description-links li{float:none;display:inline-block;margin:10px}
